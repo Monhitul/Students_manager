@@ -2,9 +2,9 @@ package com.entity;
 
 //用户类
 public class Users {
-    private int uid;
-    private String username;
-    private String password;
+    private int uid;//用户编号
+    private String username;//用户名
+    private String password;//密码
 
     public Users(){
 

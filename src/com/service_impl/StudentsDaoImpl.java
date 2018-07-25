@@ -12,6 +12,7 @@ import java.util.List;
 //学生业务逻辑的实现类
 public class StudentsDaoImpl implements StudentsDao {
 
+    //获得所有学生
     @Override
     public List<Students> queryAllStudents() {
         Transaction tx=null;
@@ -26,6 +27,7 @@ public class StudentsDaoImpl implements StudentsDao {
             return list;
         }catch (Exception e){
             e.printStackTrace();
+            tx.commit();
             return list;
         }finally {
             if (tx!=null){
@@ -34,6 +36,7 @@ public class StudentsDaoImpl implements StudentsDao {
         }
     }
 
+    //由学号查找学生
     @Override
     public Students queryStudentsBySid(String sid) {
         Transaction tx=null;
@@ -59,6 +62,7 @@ public class StudentsDaoImpl implements StudentsDao {
         }
     }
 
+//    添加新的学生
     @Override
     public boolean addStudents(Students s) {
         Transaction tx=null;
@@ -79,6 +83,7 @@ public class StudentsDaoImpl implements StudentsDao {
         }
     }
 
+//    删除学生
     @Override
     public boolean deleteStudents(String sid) {
         Transaction tx=null;

@@ -39,7 +39,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div id="main">
 		<iframe name="MainFrame" src="Users_login_main.jsp"></iframe>
 	</div>
-	<div id="footer">Copyright © 2009-2015 All Rights Reserved Powered By Somoniu</div>
+	<div id="footer">Copyright © 2018  Powered By MOOC</div>
 </div>
 </body>
 <script type="text/javascript">

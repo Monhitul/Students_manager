@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoImpl implements UsersDao {
+
+//    判断用户是否存在于users表中
     @Override
     public boolean usersLogin(Users u) {
         //事务对象
@@ -27,10 +29,10 @@ public class UserDaoImpl implements UsersDao {
             Query<Users> query=session.createQuery(hql);
             query.setParameter("username",u.getUsername());
             query.setParameter("password",u.getPassword());
-            System.out.println(hql);
+//            System.out.println(hql);
             List<Users> list=query.list();
 
-            System.out.println(list);
+//            System.out.println(list);
             tx.commit();
             if(list.size()>0){
                 return true;
@@ -39,10 +41,10 @@ public class UserDaoImpl implements UsersDao {
             }
         }catch (Exception e){
             e.printStackTrace();
+            tx.commit();
             return false;
         }finally {
             if(tx!=null){
-               // tx.commit();
                 tx=null;
             }
         }

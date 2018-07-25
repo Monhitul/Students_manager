@@ -3,14 +3,13 @@
     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-
     <class name="com.entity.Students" table="students" schema="students_manager">
         <id name="sid" column="sid" type="java.lang.String">
-            <generator class="assigned"/>
+            <generator class="assigned"/><!-- 设置sid为手动赋值 -->
         </id>
         <property name="sname" column="sname" type="java.lang.String"/>
         <property name="gender" column="gender" type="java.lang.String"/>
-        <property name="birthday" column="birthday" type="date"/>
+        <property name="birthday" column="birthday" type="date"/><!-- date类型表示 yyyy-MM-dd -->
         <property name="address" column="address" type="java.lang.String"/>
     </class>
 </hibernate-mapping>

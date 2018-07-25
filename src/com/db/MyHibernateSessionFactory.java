@@ -3,6 +3,7 @@ package com.db;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+//用于需要时获得SessionFactory对象
 public class MyHibernateSessionFactory {
     private static SessionFactory sessionFactory;//会话工厂属性
 

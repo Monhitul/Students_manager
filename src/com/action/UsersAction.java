@@ -16,11 +16,11 @@ public class UsersAction extends SuperAction implements ModelDriven<Users> {
 
     //用户登录动作
     public String login(){
-        UsersDao udao=new UserDaoImpl();//UsersDao可换成UserDaoImpl
+        UsersDao udao=new UserDaoImpl();
         if (udao.usersLogin(user)){
             //在session中保存登录成功的用户名
             session.setAttribute("loginUserName",user.getUsername());
-
+//            System.out.println(session.getAttribute("loginUserName"));
             return "login_success";
         }else{
             return "login_failure";

@@ -287,7 +287,7 @@ body{
 		</div>
 	</div>
 	<div id="footer">
-		<div id="text">Copyright © 2009-2015 All Rights Reserved Powered By Simoniu</div>
+		<div id="text">Copyright © 2018  Powered By MOOC</div>
 	</div>
 </div>
 </body>

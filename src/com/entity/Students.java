@@ -5,10 +5,10 @@ import java.util.Date;
 //学生类
 public class Students {
     private String sid;//学号
-    private String sname;
+    private String sname;//姓名
     private String gender;//性别
-    private Date birthday;
-    private String address;
+    private Date birthday;//出生年月日
+    private String address;//住址
 
     public Students() {
     }
