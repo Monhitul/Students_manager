@@ -9,7 +9,8 @@
 
 实现了用户登录，查看所有学生，添加新的学生，删除已有学生，修改已有学生资料。
 
-<img src="/images/loginJSP.png">
+<!-- ![image](https://github.com/Monhitul/Students_manager/images/loginJSP.png) -->
+<img src="https://github.com/Monhitul/Students_manager/blob/master/images/loginJSP.PNG">
 <hr>
 <img src="/images/mainJSP.png">
 <hr>
