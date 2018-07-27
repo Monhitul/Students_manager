@@ -9,22 +9,21 @@
 
 实现了用户登录，查看所有学生，添加新的学生，删除已有学生，修改已有学生资料。
 
-![image](https://github.com/Monhitul/Students_manager/images/loginJSP.png)
-<!-- <img src="https://github.com/Monhitul/Students_manager/blob/master/images/loginJSP.PNG"> -->
+<img src="https://github.com/Monhitul/Students_manager/blob/master/images/loginJSP.PNG">
 <hr>
 <img src="https://github.com/Monhitul/Students_manager/blob/master/images/mainJSP.png">
 <hr>
-<img src="/images/addJSP.png">
+<img src="https://github.com/Monhitul/Students_manager/blob/master/images/addJSP.png">
 <hr>
-<img src="/images/changeJSP.png">
+<img src="https://github.com/Monhitul/Students_manager/blob/master/images/changeJSP.png">
 
 目录为：
 
 <span>
-	<img style="width: 300px" src="/images/codetree1.png">
-	<img style="width: 300px" src="/images/codetree2.png">
+	<img style="width: 300px" src="https://github.com/Monhitul/Students_manager/blob/master/images/codetree1.png">
+	<img style="width: 300px" src="https://github.com/Monhitul/Students_manager/blob/master/images/codetree2.png">
 </span>
 
 MySQL数据库为：
 
-<img src="/images/database.png">
+<img src="https://github.com/Monhitul/Students_manager/blob/master/images/database.png">
